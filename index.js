@@ -22,6 +22,9 @@
  * THE SOFTWARE.
  */
 
+require("./polyfills/typedarray");
+require("./polyfills/classList");
+
 module.exports = {
     components: require('./components'),
     core: require('./core'),
